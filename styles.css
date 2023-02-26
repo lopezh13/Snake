@@ -1,0 +1,19 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: black;
+    overflow: hidden;
+}
+
+#game {
+    width: 400px;
+    height: 400px;
+    background: rgb(0, 32, 241);
+}
+
+#game.over {
+    background: darkred;
+}
